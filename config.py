@@ -41,11 +41,11 @@ class DepponConfig(BaseConfig):
     # mars_charts版本
     mars_charts_version = "2022.06.303"
     # 火山服务器节点
-    worker_ips = ["192.168.0.33", "192.168.0.95", "192.168.0.32"]
+    worker_ips = ["192.168.1.126", "192.168.1.112"]
     # ！需要与excel中的一致！
     # 控制台：https://${env_name}.pri-customer.vemarsdev.com/
     # 下发端：https://${env_name}-api.pri-customer.vemarsdev.com/
-    env_name = "deppon"
+    env_name = "happysnaker"
 
 
 def get_config():
